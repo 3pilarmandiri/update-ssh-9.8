@@ -1,5 +1,5 @@
 apt update -y 
-apt install build-essential libssl-dev -y 
+apt install build-essential libssl-dev zlib1g-dev -y 
 wget -c https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.8p1.tar.gz
 tar xzvf openssh-9.8p1.tar.gz
 cd openssh-9.8p1/
